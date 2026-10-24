@@ -22,7 +22,9 @@ csumb-portfolio/
     ├── cst-315.html        # Introduction to Cybersecurity
     ├── cst-438.html        # Software Engineering
     ├── cst-329.html        # Reasoning with Logic
-    └── cst-489-499.html    # Computer Science Capstone (MediTap)
+    ├── cst-489-499.html    # Computer Science Capstone (MediTap)
+    └── assets/
+        └── ethics_evangelista.pdf   # CST 300 ethics paper
 ```
 
 Each course page has the three sections the rubric grades: **Course Description**, **What I Learned**, and **Evidence** (links to real work, or a ~100-word description where the work is private).
@@ -35,11 +37,11 @@ Each course page has the three sections the rubric grades: **Course Description*
 
 ## Still to do before submitting
 
-- [ ] **CST 300** — add the two AI Companionship YouTube URLs, and commit the ethics paper to `courses/assets/ethics_evangelista.pdf` (create the `assets/` folder). Then update the `href`s on `cst-300.html`.
+- [x] **CST 300** — both AI Companionship videos embedded and the ethics paper linked (`courses/assets/ethics_evangelista.pdf`).
 - [x] **CST 462S** — service learning filled in: LibreOffice (The Document Foundation). [confirm hours]
 - [x] **CST 315 / 328 / 338** — video evidence added (pentesting, keylogger, NutriLog, game demo, diet-tracking app).
 - [ ] **CST 336** — decide whether to make the repos public (quotefinder, hw1Express, renderRepo) or keep the "code on request" note.
-- [ ] **Confirm two claims** — GymLog as a real Android app (CST 338) and the Render deployment (CST 336).
+- [ ] **Confirm** — the Render deployment (CST 336). GymLog now links to its repo (kevincodedojo/DailyDietTrackingApp).
 - [ ] **Course descriptions** are paraphrased. If an instructor wants exact wording, paste the official CSUMB catalog text into each "Course Description" block.
 - [ ] **CST 329 / Capstone** — update as those courses finish.
 - [ ] Optional: add screenshots of real work to each page.
