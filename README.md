@@ -12,17 +12,17 @@ csumb-portfolio/
 └── courses/
     ├── cst-300.html        # Major ProSeminar
     ├── cst-338.html        # Software Design
-    ├── cst-363.html        # Database Management
+    ├── cst-363.html        # Introduction to Database Systems
     ├── cst-334.html        # Operating Systems
-    ├── cst-311.html        # Intro to Computer Networking
+    ├── cst-311.html        # Introduction to Computer Networks
     ├── cst-336.html        # Internet Programming
     ├── cst-370.html        # Design & Analysis of Algorithms
     ├── cst-462s.html       # Race, Gender, Class in the Digital World
     ├── cst-328.html        # Digital Art and Design
-    ├── cst-315.html        # Cybersecurity
+    ├── cst-315.html        # Introduction to Cybersecurity
     ├── cst-438.html        # Software Engineering
     ├── cst-329.html        # Reasoning with Logic
-    └── cst-489-499.html    # Capstone (MediTap)
+    └── cst-489-499.html    # Computer Science Capstone (MediTap)
 ```
 
 Each course page has the three sections the rubric grades: **Course Description**, **What I Learned**, and **Evidence** (links to real work, or a ~100-word description where the work is private).
