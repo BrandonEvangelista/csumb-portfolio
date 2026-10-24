@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CST 315 · Cybersecurity — Brandon Evangelista</title>
+  <meta name="description" content="CST 315 Cybersecurity: course description, reflection, and evidence. Brandon Evangelista, CSUMB ILP Portfolio." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: { extend: {
+        colors: { canvas: '#fbfbfa', ink: '#111111', accent: '#e63946', line: '#e5e5e3' },
+        fontFamily: { display: ['Syne','sans-serif'], sans: ['Space Grotesk','sans-serif'], mono: ['JetBrains Mono','monospace'] }
+      }}
+    };
+  </script>
+  <style>
+    body { background-color:#fbfbfa; color:#111111; font-family:'Space Grotesk',sans-serif; -webkit-font-smoothing:antialiased; }
+    .display-title { font-family:'Syne',sans-serif; letter-spacing:-0.04em; }
+  </style>
+</head>
+<body class="bg-canvas text-ink font-sans">
+
+  <header class="border-b border-line">
+    <div class="max-w-4xl mx-auto px-6 py-6 flex items-center justify-between">
+      <a href="../index.html" class="font-mono text-xs uppercase tracking-widest hover:text-accent transition-colors">← Back to portfolio</a>
+      <a href="../index.html" class="display-title text-lg font-bold">BE<span class="text-accent">.</span></a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-16 md:py-20">
+    <p class="font-mono text-sm text-accent mb-3">CST 315 · Summer 2026</p>
+    <h1 class="display-title text-5xl md:text-6xl mb-4">Cybersecurity</h1>
+    <p class="text-ink/50 mb-12">Taken in place of CST 383 on my Individual Learning Plan.</p>
+
+    <section class="mb-12">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Course Description</h2>
+      <p class="text-lg leading-relaxed text-ink/80">Foundations of computer security: threats and attacks, cryptography, access control models, secure systems, network defense, and hands on offensive and defensive security tools.</p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">What I Learned</h2>
+      <p class="text-lg leading-relaxed text-ink/80">This was the most hands on class of the program. I built a Kali Linux lab and worked through capture the flag exercises using Mininet and Amazon EC2 instances to hunt down hidden files. On the defensive side I wrote Splunk queries to analyze logs, read packet captures with tcpdump, and ran Snort intrusion detection against simulated attacks. I implemented security models in Python (Bell LaPadula, access control matrices, and attribute based access control), cracked a Caesar cipher, built a simple blockchain in Java, and exploited stack buffer overflows on picoCTF. Working at a medical device company, the access control and audit pieces connect directly to my day job.</p>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Evidence</h2>
+      <!-- No public links for this course, so this is the rubric's allowed 100-word description of the work. -->
+      <p class="text-lg leading-relaxed text-ink/80 mb-6">CST 315 was the most hands on class in the program. I built a Kali Linux lab and worked through capture the flag exercises using Mininet and Amazon EC2 instances to track down hidden files. On defense I wrote Splunk queries to analyze logs, read packet captures with tcpdump, and ran Snort against simulated attacks. I implemented security models in Python including Bell LaPadula and attribute based access control, cracked a Caesar cipher, built a simple blockchain in Java, and exploited stack buffer overflows on picoCTF with a written walkthrough. I also completed a basic pentesting report on TryHackMe.</p>
+      <p class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-3">Coursework</p>
+      <ul class="space-y-2 text-ink/70">
+        <li>· Kali Linux lab environment (VirtualBox and ARM64 on Apple Silicon)</li>
+        <li>· Capture the flag exercises using Mininet and Amazon EC2 instances</li>
+        <li>· Security operations labs — Splunk log analysis, tcpdump packet analysis, Snort intrusion detection</li>
+        <li>· Security models in Python — Bell LaPadula, access control matrix, attribute based access control</li>
+        <li>· Cryptography — Caesar and substitution cipher cracking, blockchain implementation in Java</li>
+        <li>· Exploitation — stack buffer overflow challenges on picoCTF with written walkthrough</li>
+        <li>· TryHackMe basic pentesting report</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="border-t border-line">
+    <div class="max-w-4xl mx-auto px-6 py-8 font-mono text-xs uppercase tracking-widest text-ink/40">© 2026 Brandon Evangelista · CSUMB CS Online</div>
+  </footer>
+
+</body>
+</html>

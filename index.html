@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brandon Evangelista — CSUMB ILP Portfolio</title>
+  <meta name="description" content="Individual Learning Plan portfolio for Brandon Evangelista, B.S. Computer Science, CSUMB CS Online (cohort #22). Thirteen courses, one page each." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { canvas: '#fbfbfa', ink: '#111111', accent: '#e63946', line: '#e5e5e3' },
+          fontFamily: {
+            display: ['Syne', 'sans-serif'],
+            sans: ['Space Grotesk', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace']
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background-color: #fbfbfa; color: #111111; font-family: 'Space Grotesk', sans-serif; -webkit-font-smoothing: antialiased; }
+    .display-title { font-family: 'Syne', sans-serif; letter-spacing: -0.04em; }
+    .hover-arrow { transition: transform 0.25s ease; }
+    .group:hover .hover-arrow { transform: translate(4px, -4px); }
+    @keyframes pulse-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    .pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
+  </style>
+</head>
+<body class="bg-canvas text-ink font-sans">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-canvas/90 backdrop-blur border-b border-line">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 h-16 flex items-center justify-between">
+      <a href="#top" class="display-title text-xl font-bold">BE<span class="text-accent">.</span></a>
+      <nav class="hidden md:flex items-center gap-8 font-mono text-xs uppercase tracking-widest">
+        <a href="#program" class="hover:text-accent transition-colors"><span class="text-ink/40">01</span> Program</a>
+        <a href="#works" class="hover:text-accent transition-colors"><span class="text-ink/40">02</span> Works</a>
+        <a href="#courses" class="hover:text-accent transition-colors"><span class="text-ink/40">03</span> Courses</a>
+        <a href="#about" class="hover:text-accent transition-colors"><span class="text-ink/40">04</span> About</a>
+        <a href="#contact" class="hover:text-accent transition-colors"><span class="text-ink/40">05</span> Contact</a>
+      </nav>
+      <span class="font-mono text-xs uppercase tracking-widest border border-line rounded-full px-3 py-1">Available '26</span>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="border-b border-line">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-20 md:py-28">
+      <p class="font-mono text-xs uppercase tracking-widest flex items-center gap-2 mb-8">
+        <span class="w-2 h-2 rounded-full bg-accent pulse-dot"></span>
+        San Francisco, CA · CSUMB CS Online
+      </p>
+      <h1 class="display-title text-5xl md:text-7xl lg:text-8xl leading-[0.95] mb-8">
+        Brandon Evangelista<br />
+        <span class="text-ink/40 italic">Individual Learning Plan</span>
+      </h1>
+      <p class="max-w-2xl text-lg md:text-xl leading-relaxed text-ink/80 mb-10">
+        This is my ILP portfolio for the CSUMB Computer Science Online program. It documents what I built and learned across all thirteen courses on my plan, from the first ProSeminar to my senior capstone. Each course has its own page with a description, a reflection, and the work itself.
+      </p>
+      <dl class="grid grid-cols-2 sm:grid-cols-4 gap-6 font-mono text-xs uppercase tracking-widest max-w-3xl">
+        <div><dt class="text-ink/40 mb-1">Degree</dt><dd>B.S. Computer Science</dd></div>
+        <div><dt class="text-ink/40 mb-1">School</dt><dd>Cal State Monterey Bay</dd></div>
+        <div><dt class="text-ink/40 mb-1">Cohort</dt><dd>CS Online #22</dd></div>
+        <div><dt class="text-ink/40 mb-1">Grad</dt><dd>Fall 2026</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- Program + Outcomes + Goals -->
+  <section id="program" class="border-b border-line">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-20 md:py-24 grid md:grid-cols-12 gap-10">
+      <div class="md:col-span-4">
+        <p class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">01 / The Program</p>
+        <h2 class="display-title text-3xl md:text-4xl">B.S. Computer Science<br />CS Online</h2>
+      </div>
+      <div class="md:col-span-8 space-y-10">
+        <p class="text-lg leading-relaxed text-ink/80">
+          The CSUMB Computer Science Online program is a fully online bachelor's degree built for transfer students. Across two years and thirteen courses it moves from programming foundations through software design, operating systems, databases, networking, algorithms, and security, and finishes with a year long senior capstone. The program is organized around Major Learning Outcomes in software development, computing systems and theory, and the social and ethical context of technology.
+        </p>
+        <div>
+          <p class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Program Outcomes · what I can do now</p>
+          <ul class="space-y-3 text-lg leading-relaxed">
+            <li class="flex gap-3"><span class="text-accent font-mono text-sm pt-1">→</span> Design and build full stack and native applications in Java, JavaScript/Node, React, and SQL.</li>
+            <li class="flex gap-3"><span class="text-accent font-mono text-sm pt-1">→</span> Reason about systems: operating systems, computer networks, and security.</li>
+            <li class="flex gap-3"><span class="text-accent font-mono text-sm pt-1">→</span> Apply algorithms, data structures, and formal logic to real problems.</li>
+            <li class="flex gap-3"><span class="text-accent font-mono text-sm pt-1">→</span> Work on an Agile team with version control, code review, testing, and deployment.</li>
+            <li class="flex gap-3"><span class="text-accent font-mono text-sm pt-1">→</span> Weigh the social, ethical, and accessibility impact of the software I build.</li>
+          </ul>
+        </div>
+        <div>
+          <p class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Goals</p>
+          <p class="text-lg leading-relaxed text-ink/80">
+            My goal is to build software at the intersection of healthcare and technology. I spent years in cardiac care and now work in QA at a medical device company, and I have seen how often the people who need technology most are the ones it leaves behind. After I graduate in Fall 2026 I want to move fully into software engineering and work on systems that are reliable, secure, and usable by everyone, not just the people who already have the best tools. My capstone, MediTap, is the first step in that direction.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured works -->
+  <section id="works" class="border-b border-line">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-20 md:py-24">
+      <p class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-10">02 / Selected Works</p>
+      <div class="divide-y divide-line border-y border-line">
+
+        <a href="https://github.com/BrandonEvangelista/meditap" target="_blank" rel="noopener" class="group grid md:grid-cols-12 gap-4 py-8 items-baseline">
+          <span class="md:col-span-1 font-mono text-sm text-ink/40">001</span>
+          <div class="md:col-span-7">
+            <h3 class="display-title text-2xl md:text-3xl mb-2">MediTap</h3>
+            <p class="text-ink/70 leading-relaxed">Senior capstone (CST 489/499). An NFC medication adherence platform: patients tap a sticker on a prescription vial to log a dose, and caregivers get a read only view.</p>
+          </div>
+          <div class="md:col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">React · Node · PostgreSQL</div>
+          <div class="md:col-span-1 md:text-right font-mono text-lg"><span class="hover-arrow inline-block">↗</span></div>
+        </a>
+
+        <a href="https://www.figma.com/proto/0LvSvTE3zbPW5wjYxbZLqH/BEvangelista?node-id=2107-807&starting-point-node-id=2107%3A807" target="_blank" rel="noopener" class="group grid md:grid-cols-12 gap-4 py-8 items-baseline">
+          <span class="md:col-span-1 font-mono text-sm text-ink/40">002</span>
+          <div class="md:col-span-7">
+            <h3 class="display-title text-2xl md:text-3xl mb-2">NutriLog</h3>
+            <p class="text-ink/70 leading-relaxed">Nutrition logging app (CST 328). Taken through the full design process from wireframes to an interactive, high fidelity Figma prototype.</p>
+          </div>
+          <div class="md:col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">Figma · UX Design</div>
+          <div class="md:col-span-1 md:text-right font-mono text-lg"><span class="hover-arrow inline-block">↗</span></div>
+        </a>
+
+        <a href="https://github.com/BrandonEvangelista/GymLog" target="_blank" rel="noopener" class="group grid md:grid-cols-12 gap-4 py-8 items-baseline">
+          <span class="md:col-span-1 font-mono text-sm text-ink/40">003</span>
+          <div class="md:col-span-7">
+            <h3 class="display-title text-2xl md:text-3xl mb-2">GymLog</h3>
+            <p class="text-ink/70 leading-relaxed">Native Android app in Java (CST 338). Built from a UML blueprint with OOP architecture and local persistence.</p>
+          </div>
+          <div class="md:col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">Java · Android</div>
+          <div class="md:col-span-1 md:text-right font-mono text-lg"><span class="hover-arrow inline-block">↗</span></div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses -->
+  <section id="courses" class="border-b border-line">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-20 md:py-24">
+      <div class="flex flex-wrap items-end justify-between gap-4 mb-10">
+        <p class="font-mono text-xs uppercase tracking-widest text-ink/40">03 / Courses</p>
+        <p class="font-mono text-xs uppercase tracking-widest text-ink/40">All 13 ILP milestones · Spring 2025 – Fall 2026</p>
+      </div>
+      <div class="divide-y divide-line border-y border-line">
+
+        <a href="courses/cst-300.html" class="group grid grid-cols-12 gap-4 py-5 items-center">
+          <span class="col-span-2 md:col-span-1 font-mono text-sm text-accent">300</span>
+          <h3 class="col-span-6 md:col-span-7 text-lg">Major ProSeminar</h3>
+          <span class="col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">Spring 2025</span>
+          <span class="col-span-1 text-right font-mono"><span class="hover-arrow inline-block">↗</span></span>
+        </a>
+        <a href="courses/cst-338.html" class="group grid grid-cols-12 gap-4 py-5 items-center">
+          <span class="col-span-2 md:col-span-1 font-mono text-sm text-accent">338</span>
+          <h3 class="col-span-6 md:col-span-7 text-lg">Software Design</h3>
+          <span class="col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">Spring 2025</span>
+          <span class="col-span-1 text-right font-mono"><span class="hover-arrow inline-block">↗</span></span>
+        </a>
+        <a href="courses/cst-363.html" class="group grid grid-cols-12 gap-4 py-5 items-center">
+          <span class="col-span-2 md:col-span-1 font-mono text-sm text-accent">363</span>
+          <h3 class="col-span-6 md:col-span-7 text-lg">Database Management</h3>
+          <span class="col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">Summer 2025</span>
+          <span class="col-span-1 text-right font-mono"><span class="hover-arrow inline-block">↗</span></span>
+        </a>
+        <a href="courses/cst-334.html" class="group grid grid-cols-12 gap-4 py-5 items-center">
+          <span class="col-span-2 md:col-span-1 font-mono text-sm text-accent">334</span>
+          <h3 class="col-span-6 md:col-span-7 text-lg">Operating Systems</h3>
+          <span class="col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">Summer 2025</span>
+          <span class="col-span-1 text-right font-mono"><span class="hover-arrow inline-block">↗</span></span>
+        </a>
+        <a href="courses/cst-311.html" class="group grid grid-cols-12 gap-4 py-5 items-center">
+          <span class="col-span-2 md:col-span-1 font-mono text-sm text-accent">311</span>
+          <h3 class="col-span-6 md:col-span-7 text-lg">Intro to Computer Networking</h3>
+          <span class="col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">Fall 2025</span>
+          <span class="col-span-1 text-right font-mono"><span class="hover-arrow inline-block">↗</span></span>
+        </a>
+        <a href="courses/cst-336.html" class="group grid grid-cols-12 gap-4 py-5 items-center">
+          <span class="col-span-2 md:col-span-1 font-mono text-sm text-accent">336</span>
+          <h3 class="col-span-6 md:col-span-7 text-lg">Internet Programming</h3>
+          <span class="col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">Fall 2025</span>
+          <span class="col-span-1 text-right font-mono"><span class="hover-arrow inline-block">↗</span></span>
+        </a>
+        <a href="courses/cst-370.html" class="group grid grid-cols-12 gap-4 py-5 items-center">
+          <span class="col-span-2 md:col-span-1 font-mono text-sm text-accent">370</span>
+          <h3 class="col-span-6 md:col-span-7 text-lg">Design &amp; Analysis of Algorithms</h3>
+          <span class="col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">Spring 2026</span>
+          <span class="col-span-1 text-right font-mono"><span class="hover-arrow inline-block">↗</span></span>
+        </a>
+        <a href="courses/cst-462s.html" class="group grid grid-cols-12 gap-4 py-5 items-center">
+          <span class="col-span-2 md:col-span-1 font-mono text-sm text-accent">462S</span>
+          <h3 class="col-span-6 md:col-span-7 text-lg">Race, Gender, Class in the Digital World</h3>
+          <span class="col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">Spring 2026</span>
+          <span class="col-span-1 text-right font-mono"><span class="hover-arrow inline-block">↗</span></span>
+        </a>
+        <a href="courses/cst-328.html" class="group grid grid-cols-12 gap-4 py-5 items-center">
+          <span class="col-span-2 md:col-span-1 font-mono text-sm text-accent">328</span>
+          <h3 class="col-span-6 md:col-span-7 text-lg">Digital Art and Design</h3>
+          <span class="col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">Spring 2026</span>
+          <span class="col-span-1 text-right font-mono"><span class="hover-arrow inline-block">↗</span></span>
+        </a>
+        <a href="courses/cst-315.html" class="group grid grid-cols-12 gap-4 py-5 items-center">
+          <span class="col-span-2 md:col-span-1 font-mono text-sm text-accent">315</span>
+          <h3 class="col-span-6 md:col-span-7 text-lg">Cybersecurity</h3>
+          <span class="col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">Summer 2026</span>
+          <span class="col-span-1 text-right font-mono"><span class="hover-arrow inline-block">↗</span></span>
+        </a>
+        <a href="courses/cst-438.html" class="group grid grid-cols-12 gap-4 py-5 items-center">
+          <span class="col-span-2 md:col-span-1 font-mono text-sm text-accent">438</span>
+          <h3 class="col-span-6 md:col-span-7 text-lg">Software Engineering</h3>
+          <span class="col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">Summer 2026</span>
+          <span class="col-span-1 text-right font-mono"><span class="hover-arrow inline-block">↗</span></span>
+        </a>
+        <a href="courses/cst-329.html" class="group grid grid-cols-12 gap-4 py-5 items-center">
+          <span class="col-span-2 md:col-span-1 font-mono text-sm text-accent">329</span>
+          <h3 class="col-span-6 md:col-span-7 text-lg">Reasoning with Logic</h3>
+          <span class="col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">Fall 2026</span>
+          <span class="col-span-1 text-right font-mono"><span class="hover-arrow inline-block">↗</span></span>
+        </a>
+        <a href="courses/cst-489-499.html" class="group grid grid-cols-12 gap-4 py-5 items-center">
+          <span class="col-span-2 md:col-span-1 font-mono text-sm text-accent">489/499</span>
+          <h3 class="col-span-6 md:col-span-7 text-lg">Capstone — MediTap</h3>
+          <span class="col-span-3 font-mono text-xs uppercase tracking-widest text-ink/50">Fall 2026</span>
+          <span class="col-span-1 text-right font-mono"><span class="hover-arrow inline-block">↗</span></span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="border-b border-line">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-20 md:py-24 grid md:grid-cols-12 gap-10">
+      <div class="md:col-span-4">
+        <p class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">04 / About</p>
+        <h2 class="display-title text-3xl md:text-4xl">From cardiac care<br />to code</h2>
+      </div>
+      <div class="md:col-span-8 space-y-8">
+        <p class="text-lg leading-relaxed text-ink/80">
+          I am Brandon Evangelista, a software engineer finishing my B.S. in Computer Science through CSUMB's CS Online program (cohort #22). I spent more than five years as a cardiac technician before moving into tech, and I currently work in QA at a medical device company. I care about distributed systems, native apps, and interfaces that real people can actually use. Outside of class I contribute to LibreOffice and write about what I am learning on my blog, Scrubs to Scripts.
+        </p>
+        <div class="grid sm:grid-cols-2 gap-6 font-mono text-sm">
+          <div>
+            <p class="text-ink/40 uppercase tracking-widest text-xs mb-3">Languages</p>
+            <p class="leading-relaxed">Java · TypeScript · C++ · SQL · Python</p>
+          </div>
+          <div>
+            <p class="text-ink/40 uppercase tracking-widest text-xs mb-3">Platforms &amp; Tools</p>
+            <p class="leading-relaxed">Linux · Android · Docker · AWS · Git</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-20 md:py-28">
+      <p class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-6">05 / Contact</p>
+      <h2 class="display-title text-4xl md:text-6xl mb-10">Let's build together.</h2>
+      <div class="flex flex-wrap gap-x-10 gap-y-4 font-mono text-sm uppercase tracking-widest">
+        <a href="mailto:bevangelista@csumb.edu" class="hover:text-accent transition-colors">Email ↗</a>
+        <a href="https://github.com/BrandonEvangelista" target="_blank" rel="noopener" class="hover:text-accent transition-colors">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/brandonevangelista" target="_blank" rel="noopener" class="hover:text-accent transition-colors">LinkedIn ↗</a>
+        <a href="https://scrubstoscripts.blogspot.com/" target="_blank" rel="noopener" class="hover:text-accent transition-colors">Blog ↗</a>
+        <a href="https://brandonevangelista.weebly.com/" target="_blank" rel="noopener" class="hover:text-accent transition-colors">Weebly Archive ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-line">
+    <div class="max-w-7xl mx-auto px-6 md:px-10 py-8 font-mono text-xs uppercase tracking-widest text-ink/40 flex flex-wrap justify-between gap-4">
+      <span>© 2026 Brandon Evangelista</span>
+      <span>CSUMB CS Online · Cohort #22</span>
+    </div>
+  </footer>
+
+</body>
+</html>

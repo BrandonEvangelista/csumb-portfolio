@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CST 311 · Intro to Computer Networking — Brandon Evangelista</title>
+  <meta name="description" content="CST 311 Intro to Computer Networking: course description, reflection, and evidence. Brandon Evangelista, CSUMB ILP Portfolio." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: { extend: {
+        colors: { canvas: '#fbfbfa', ink: '#111111', accent: '#e63946', line: '#e5e5e3' },
+        fontFamily: { display: ['Syne','sans-serif'], sans: ['Space Grotesk','sans-serif'], mono: ['JetBrains Mono','monospace'] }
+      }}
+    };
+  </script>
+  <style>
+    body { background-color:#fbfbfa; color:#111111; font-family:'Space Grotesk',sans-serif; -webkit-font-smoothing:antialiased; }
+    .display-title { font-family:'Syne',sans-serif; letter-spacing:-0.04em; }
+  </style>
+</head>
+<body class="bg-canvas text-ink font-sans">
+
+  <header class="border-b border-line">
+    <div class="max-w-4xl mx-auto px-6 py-6 flex items-center justify-between">
+      <a href="../index.html" class="font-mono text-xs uppercase tracking-widest hover:text-accent transition-colors">← Back to portfolio</a>
+      <a href="../index.html" class="display-title text-lg font-bold">BE<span class="text-accent">.</span></a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-16 md:py-20">
+    <p class="font-mono text-sm text-accent mb-3">CST 311 · Fall 2025</p>
+    <h1 class="display-title text-5xl md:text-6xl mb-12">Intro to Computer Networking</h1>
+
+    <section class="mb-12">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Course Description</h2>
+      <p class="text-lg leading-relaxed text-ink/80">How the internet actually works, layer by layer: application, transport, network, and link. Covers HTTP, DNS, TCP and UDP, IP addressing and subnetting, NAT, and routing, with hands on packet analysis and network programming.</p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">What I Learned</h2>
+      <p class="text-lg leading-relaxed text-ink/80">Wireshark made the protocol stack real for me. I captured and read actual traffic for HTTP, DNS, TCP, IP, and NAT, and watched the TCP three way handshake happen packet by packet. I set up a Mininet virtual network to simulate hosts and links, wrote client and server programs with sockets, built a multi client TCP chat service, and worked through subnet addressing by hand. Today I use Postman to debug APIs at work, and this class is why I understand what is happening underneath the request.</p>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Evidence</h2>
+      <!-- Course labs have no public links, so this is the rubric's allowed 100-word description of the work. -->
+      <p class="text-lg leading-relaxed text-ink/80 mb-6">In CST 311 I worked hands on with the full protocol stack. I used Wireshark to capture and read real HTTP, DNS, TCP, IP, and NAT traffic, and I watched the TCP three way handshake happen packet by packet. I built a virtual network in Mininet to simulate hosts and links, then wrote my own client and server programs with sockets. My biggest assignment was a multi client TCP chat service that handled several users at once. I also worked through subnet addressing by hand until the math made sense. These labs are why I understand what happens underneath an API call today.</p>
+      <p class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-3">Coursework</p>
+      <ul class="space-y-2 text-ink/70">
+        <li>· Wireshark labs — packet analysis of HTTP, DNS, TCP, IP, and NAT traffic</li>
+        <li>· Mininet lab — a simulated network of hosts and links in a VM</li>
+        <li>· Programming Assignment 1 — client and server socket programming</li>
+        <li>· Programming Assignment 3 — multi client TCP chat service</li>
+        <li>· Programming Assignment 4 — subnet addressing</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="border-t border-line">
+    <div class="max-w-4xl mx-auto px-6 py-8 font-mono text-xs uppercase tracking-widest text-ink/40">© 2026 Brandon Evangelista · CSUMB CS Online</div>
+  </footer>
+
+</body>
+</html>

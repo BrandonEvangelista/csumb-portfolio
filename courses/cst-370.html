@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CST 370 · Design &amp; Analysis of Algorithms — Brandon Evangelista</title>
+  <meta name="description" content="CST 370 Design and Analysis of Algorithms: course description, reflection, and evidence. Brandon Evangelista, CSUMB ILP Portfolio." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: { extend: {
+        colors: { canvas: '#fbfbfa', ink: '#111111', accent: '#e63946', line: '#e5e5e3' },
+        fontFamily: { display: ['Syne','sans-serif'], sans: ['Space Grotesk','sans-serif'], mono: ['JetBrains Mono','monospace'] }
+      }}
+    };
+  </script>
+  <style>
+    body { background-color:#fbfbfa; color:#111111; font-family:'Space Grotesk',sans-serif; -webkit-font-smoothing:antialiased; }
+    .display-title { font-family:'Syne',sans-serif; letter-spacing:-0.04em; }
+  </style>
+</head>
+<body class="bg-canvas text-ink font-sans">
+
+  <header class="border-b border-line">
+    <div class="max-w-4xl mx-auto px-6 py-6 flex items-center justify-between">
+      <a href="../index.html" class="font-mono text-xs uppercase tracking-widest hover:text-accent transition-colors">← Back to portfolio</a>
+      <a href="../index.html" class="display-title text-lg font-bold">BE<span class="text-accent">.</span></a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-16 md:py-20">
+    <p class="font-mono text-sm text-accent mb-3">CST 370 · Spring 2026</p>
+    <h1 class="display-title text-5xl md:text-6xl mb-12">Design &amp; Analysis of Algorithms</h1>
+
+    <section class="mb-12">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Course Description</h2>
+      <p class="text-lg leading-relaxed text-ink/80">Design and analysis of algorithms. Covers hashing, heaps, graphs, and trees, sorting and searching, and design strategies including brute force, divide and conquer, decrease and conquer, transform and conquer, dynamic programming, and greedy methods, with a focus on efficiency.</p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">What I Learned</h2>
+      <p class="text-lg leading-relaxed text-ink/80">Recursion was the hardest part for me at first, especially finding the base case and tracing the calls by hand. Once that clicked, merge sort and quicksort made sense as divide and conquer, and I learned why median of three pivots protect quicksort from its worst case. I learned how AVL trees rotate to stay balanced, how heaps and hashing work, and how dynamic programming saves work by storing answers. I completed weekly programming assignments in Java and C++ through GitHub Classroom, including the coin row problem and Floyd's all pairs shortest paths.</p>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Evidence</h2>
+      <p class="text-ink/60 mb-4">Major work: 13 GitHub Classroom programming assignments (HW0–HW6) in Java and C++, including dynamic programming and Floyd's algorithm. The class-org repos are private; code available on request. Walkthroughs below.</p>
+      <ul class="space-y-3 text-lg">
+        <li><a href="https://scrubstoscripts.blogspot.com/2026/01/week-2-journal-entry.html" target="_blank" rel="noopener" class="hover:text-accent transition-colors underline decoration-line underline-offset-4">Recursion ↗</a></li>
+        <li><a href="https://scrubstoscripts.blogspot.com/2026/02/week-4-journal-entry.html" target="_blank" rel="noopener" class="hover:text-accent transition-colors underline decoration-line underline-offset-4">Merge sort and divide and conquer ↗</a></li>
+        <li><a href="https://scrubstoscripts.blogspot.com/2026/02/week-5.html" target="_blank" rel="noopener" class="hover:text-accent transition-colors underline decoration-line underline-offset-4">Quicksort and median of three ↗</a></li>
+        <li><a href="https://scrubstoscripts.blogspot.com/2026/02/week-6.html" target="_blank" rel="noopener" class="hover:text-accent transition-colors underline decoration-line underline-offset-4">AVL trees, 2-3 trees, heaps, and hashing ↗</a></li>
+        <li><a href="https://scrubstoscripts.blogspot.com/2026/02/week-7.html" target="_blank" rel="noopener" class="hover:text-accent transition-colors underline decoration-line underline-offset-4">Dynamic programming and Floyd's algorithm in Java ↗</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="border-t border-line">
+    <div class="max-w-4xl mx-auto px-6 py-8 font-mono text-xs uppercase tracking-widest text-ink/40">© 2026 Brandon Evangelista · CSUMB CS Online</div>
+  </footer>
+
+</body>
+</html>

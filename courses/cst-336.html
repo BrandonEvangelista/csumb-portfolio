@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CST 336 · Internet Programming — Brandon Evangelista</title>
+  <meta name="description" content="CST 336 Internet Programming: course description, reflection, and evidence. Brandon Evangelista, CSUMB ILP Portfolio." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: { extend: {
+        colors: { canvas: '#fbfbfa', ink: '#111111', accent: '#e63946', line: '#e5e5e3' },
+        fontFamily: { display: ['Syne','sans-serif'], sans: ['Space Grotesk','sans-serif'], mono: ['JetBrains Mono','monospace'] }
+      }}
+    };
+  </script>
+  <style>
+    body { background-color:#fbfbfa; color:#111111; font-family:'Space Grotesk',sans-serif; -webkit-font-smoothing:antialiased; }
+    .display-title { font-family:'Syne',sans-serif; letter-spacing:-0.04em; }
+  </style>
+</head>
+<body class="bg-canvas text-ink font-sans">
+
+  <header class="border-b border-line">
+    <div class="max-w-4xl mx-auto px-6 py-6 flex items-center justify-between">
+      <a href="../index.html" class="font-mono text-xs uppercase tracking-widest hover:text-accent transition-colors">← Back to portfolio</a>
+      <a href="../index.html" class="display-title text-lg font-bold">BE<span class="text-accent">.</span></a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-16 md:py-20">
+    <p class="font-mono text-sm text-accent mb-3">CST 336 · Fall 2025</p>
+    <h1 class="display-title text-5xl md:text-6xl mb-12">Internet Programming</h1>
+
+    <section class="mb-12">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Course Description</h2>
+      <p class="text-lg leading-relaxed text-ink/80">Building dynamic web applications with HTML, CSS, JavaScript, Node.js, and Express, including server side rendering with templates, REST APIs, and working with databases.</p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">What I Learned</h2>
+      <p class="text-lg leading-relaxed text-ink/80">This class connected the front end to the back end for me. I built Node and Express apps that render pages with EJS templates, handle routes and form data, and pull from APIs and databases. Seeing how a request travels from the browser to the server and back made it much easier to test web apps at work, and it gave me the foundation I later used to build MedLog and my capstone on Node and Express.</p>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Evidence</h2>
+      <!-- Course repos are private, so this is the rubric's allowed 100-word description of the work. -->
+      <p class="text-lg leading-relaxed text-ink/80 mb-6">CST 336 is where the front end and back end finally connected for me. I built dynamic web apps with Node and Express that render pages using EJS templates, handle routes and form data, and pull from APIs and databases. My main project was Quote Finder, a full Express app with EJS views, and I also built an Express app for HW1 and deployed a project to Render. Tracing a request from the browser to the server and back made testing web apps at work much easier, and it gave me the foundation I later used for my capstone. Course repos are private, code available on request.</p>
+      <p class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-3">Coursework</p>
+      <ul class="space-y-2 text-ink/70">
+        <li>· Quote Finder — Node and Express app with EJS views</li>
+        <li>· HW1 — Express web app with EJS templates</li>
+        <li>· Deployed web app on Render</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="border-t border-line">
+    <div class="max-w-4xl mx-auto px-6 py-8 font-mono text-xs uppercase tracking-widest text-ink/40">© 2026 Brandon Evangelista · CSUMB CS Online</div>
+  </footer>
+
+</body>
+</html>

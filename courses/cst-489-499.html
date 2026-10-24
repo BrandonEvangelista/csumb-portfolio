@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CST 489 &amp; 499 · Capstone — Brandon Evangelista</title>
+  <meta name="description" content="CST 489 and 499 Capstone (MediTap): course description, reflection, and evidence. Brandon Evangelista, CSUMB ILP Portfolio." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: { extend: {
+        colors: { canvas: '#fbfbfa', ink: '#111111', accent: '#e63946', line: '#e5e5e3' },
+        fontFamily: { display: ['Syne','sans-serif'], sans: ['Space Grotesk','sans-serif'], mono: ['JetBrains Mono','monospace'] }
+      }}
+    };
+  </script>
+  <style>
+    body { background-color:#fbfbfa; color:#111111; font-family:'Space Grotesk',sans-serif; -webkit-font-smoothing:antialiased; }
+    .display-title { font-family:'Syne',sans-serif; letter-spacing:-0.04em; }
+  </style>
+</head>
+<body class="bg-canvas text-ink font-sans">
+
+  <header class="border-b border-line">
+    <div class="max-w-4xl mx-auto px-6 py-6 flex items-center justify-between">
+      <a href="../index.html" class="font-mono text-xs uppercase tracking-widest hover:text-accent transition-colors">← Back to portfolio</a>
+      <a href="../index.html" class="display-title text-lg font-bold">BE<span class="text-accent">.</span></a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-16 md:py-20">
+    <p class="font-mono text-sm text-accent mb-3">CST 489 &amp; 499 · Fall 2026 · In progress</p>
+    <h1 class="display-title text-5xl md:text-6xl mb-12">Capstone — MediTap</h1>
+
+    <section class="mb-12">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Course Description</h2>
+      <p class="text-lg leading-relaxed text-ink/80">Plan and deliver a substantial software project. CST 489 covers the proposal, requirements, and design; CST 499 covers building, testing, and presenting the finished product.</p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">What I Learned</h2>
+      <p class="text-lg leading-relaxed text-ink/80">My capstone is MediTap, a medication adherence platform that brings together my cardiac and healthcare background with everything I learned in this program. Patients tap an NFC sticker (or scan a QR code) on a prescription vial to log a dose, and a caregiver gets a read only view. Writing the proposal taught me to scope a solo project to a real 10 week timeline and to plan usability testing with real people from the start.</p>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Evidence</h2>
+      <p class="text-ink/60 mb-4">Final project: MediTap, an NFC based medication adherence tracking platform.</p>
+      <ul class="space-y-3 text-lg">
+        <li><a href="https://github.com/BrandonEvangelista/meditap" target="_blank" rel="noopener" class="hover:text-accent transition-colors underline decoration-line underline-offset-4">MediTap — GitHub repository ↗</a></li>
+      </ul>
+      <p class="font-mono text-xs uppercase tracking-widest text-ink/40 mt-6 mb-3">Details</p>
+      <ul class="space-y-2 text-ink/70">
+        <li>· Stack — React, Tailwind, Node and Express, PostgreSQL, JWT role based access, Jest, Playwright, Vercel</li>
+        <li>· Capstone mentored project proposal with a 10 week plan and a usability focus group (SUS target of 80 or higher)</li>
+      </ul>
+      <p class="text-ink/50 mt-6 italic">In progress, Fall 2026. Updates coming as the build moves forward.</p>
+    </section>
+  </main>
+
+  <footer class="border-t border-line">
+    <div class="max-w-4xl mx-auto px-6 py-8 font-mono text-xs uppercase tracking-widest text-ink/40">© 2026 Brandon Evangelista · CSUMB CS Online</div>
+  </footer>
+
+</body>
+</html>

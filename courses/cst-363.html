@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CST 363 · Database Management — Brandon Evangelista</title>
+  <meta name="description" content="CST 363 Database Management: course description, reflection, and evidence. Brandon Evangelista, CSUMB ILP Portfolio." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: { extend: {
+        colors: { canvas: '#fbfbfa', ink: '#111111', accent: '#e63946', line: '#e5e5e3' },
+        fontFamily: { display: ['Syne','sans-serif'], sans: ['Space Grotesk','sans-serif'], mono: ['JetBrains Mono','monospace'] }
+      }}
+    };
+  </script>
+  <style>
+    body { background-color:#fbfbfa; color:#111111; font-family:'Space Grotesk',sans-serif; -webkit-font-smoothing:antialiased; }
+    .display-title { font-family:'Syne',sans-serif; letter-spacing:-0.04em; }
+  </style>
+</head>
+<body class="bg-canvas text-ink font-sans">
+
+  <header class="border-b border-line">
+    <div class="max-w-4xl mx-auto px-6 py-6 flex items-center justify-between">
+      <a href="../index.html" class="font-mono text-xs uppercase tracking-widest hover:text-accent transition-colors">← Back to portfolio</a>
+      <a href="../index.html" class="display-title text-lg font-bold">BE<span class="text-accent">.</span></a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-16 md:py-20">
+    <p class="font-mono text-sm text-accent mb-3">CST 363 · Summer 2025</p>
+    <h1 class="display-title text-5xl md:text-6xl mb-12">Database Management</h1>
+
+    <section class="mb-12">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Course Description</h2>
+      <p class="text-lg leading-relaxed text-ink/80">Balanced coverage of database use and design with a focus on relational databases. Students design schemas, write SQL, access databases from code, and learn how query processing, indexing, transactions, and NoSQL systems work.</p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">What I Learned</h2>
+      <p class="text-lg leading-relaxed text-ink/80">A database is not a fancy spreadsheet. It enforces integrity with constraints, keys, and relationships, and normalization keeps data from contradicting itself. I designed my own schema around something I actually care about (Pokemon cards and inventory), learned how views work as reusable virtual tables, and learned that a slow index is usually a query problem, not a broken index. Comparing MongoDB to MySQL showed me when a document store makes more sense than tables and rows. This is directly useful at work, where I query clinical data every day.</p>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Evidence</h2>
+      <p class="text-ink/60 mb-4">Final project: a Pokemon card inventory schema, documented in my learning journal.</p>
+      <ul class="space-y-3 text-lg">
+        <li><a href="https://scrubstoscripts.blogspot.com/2025/05/learning-journal-week-2.html" target="_blank" rel="noopener" class="hover:text-accent transition-colors underline decoration-line underline-offset-4">Pokemon card inventory schema ↗</a></li>
+        <li><a href="https://scrubstoscripts.blogspot.com/2025/05/learning-journal-week-4.html" target="_blank" rel="noopener" class="hover:text-accent transition-colors underline decoration-line underline-offset-4">Normalization and SQL queries ↗</a></li>
+        <li><a href="https://scrubstoscripts.blogspot.com/2025/06/learning-journal-week-5.html" target="_blank" rel="noopener" class="hover:text-accent transition-colors underline decoration-line underline-offset-4">Indexing and query performance ↗</a></li>
+        <li><a href="https://scrubstoscripts.blogspot.com/2025/06/learning-journal-week-7.html" target="_blank" rel="noopener" class="hover:text-accent transition-colors underline decoration-line underline-offset-4">Relational vs NoSQL (MySQL vs MongoDB) ↗</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="border-t border-line">
+    <div class="max-w-4xl mx-auto px-6 py-8 font-mono text-xs uppercase tracking-widest text-ink/40">© 2026 Brandon Evangelista · CSUMB CS Online</div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CST 329 · Reasoning with Logic — Brandon Evangelista</title>
+  <meta name="description" content="CST 329 Reasoning with Logic: course description, reflection, and evidence. Brandon Evangelista, CSUMB ILP Portfolio." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: { extend: {
+        colors: { canvas: '#fbfbfa', ink: '#111111', accent: '#e63946', line: '#e5e5e3' },
+        fontFamily: { display: ['Syne','sans-serif'], sans: ['Space Grotesk','sans-serif'], mono: ['JetBrains Mono','monospace'] }
+      }}
+    };
+  </script>
+  <style>
+    body { background-color:#fbfbfa; color:#111111; font-family:'Space Grotesk',sans-serif; -webkit-font-smoothing:antialiased; }
+    .display-title { font-family:'Syne',sans-serif; letter-spacing:-0.04em; }
+  </style>
+</head>
+<body class="bg-canvas text-ink font-sans">
+
+  <header class="border-b border-line">
+    <div class="max-w-4xl mx-auto px-6 py-6 flex items-center justify-between">
+      <a href="../index.html" class="font-mono text-xs uppercase tracking-widest hover:text-accent transition-colors">← Back to portfolio</a>
+      <a href="../index.html" class="display-title text-lg font-bold">BE<span class="text-accent">.</span></a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6 py-16 md:py-20">
+    <p class="font-mono text-sm text-accent mb-3">CST 329 · Fall 2026 · In progress</p>
+    <h1 class="display-title text-5xl md:text-6xl mb-12">Reasoning with Logic</h1>
+
+    <section class="mb-12">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Course Description</h2>
+      <p class="text-lg leading-relaxed text-ink/80">Formal reasoning for computer science. Covers propositional and first order logic, translating English into logic, and building natural deduction proofs, the same skills that underpin program correctness, databases, and AI.</p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">What I Learned</h2>
+      <p class="text-lg leading-relaxed text-ink/80">I learned to build natural deduction proofs step by step in a proof checker, including how proof by contradiction really works: to prove something, assume its negation and drive it to a contradiction inside the subproof. In first order logic I worked with quantifier rules, translated English sentences into formulas, and defined reflexive, symmetric, and transitive relations from scratch. It changed how I read requirements and test conditions at work, since a test case is really just a logical claim about the system.</p>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-4">Evidence</h2>
+      <!-- No public links for this course, so this is the rubric's allowed 100-word description of the work. -->
+      <p class="text-lg leading-relaxed text-ink/80 mb-6">In CST 329 I am learning to build natural deduction proofs step by step inside a proof checker. I worked through proof by contradiction, where you assume the negation of what you want and drive it to a contradiction inside the subproof, along with rules like RAA, DNE, and the quantifier rules. In first order logic I translated English sentences into formulas and defined reflexive, symmetric, and transitive relations from scratch. It already changed how I read requirements and test conditions at work, since a test case is really just a logical claim about the system. This course is in progress, Fall 2026 Term A.</p>
+      <p class="font-mono text-xs uppercase tracking-widest text-ink/40 mb-3">Coursework</p>
+      <ul class="space-y-2 text-ink/70">
+        <li>· Natural deduction proofs in propositional and first order logic using a proof checker (RAA, DNE, quantifier rules)</li>
+        <li>· Translating English sentences into first order logic</li>
+        <li>· Relations and identity — reflexive, symmetric, and transitive properties with a worked example</li>
+      </ul>
+      <p class="text-ink/50 mt-6 italic">Course in progress, Fall 2026 Term A. Updates coming as the course finishes.</p>
+    </section>
+  </main>
+
+  <footer class="border-t border-line">
+    <div class="max-w-4xl mx-auto px-6 py-8 font-mono text-xs uppercase tracking-widest text-ink/40">© 2026 Brandon Evangelista · CSUMB CS Online</div>
+  </footer>
+
+</body>
+</html>
