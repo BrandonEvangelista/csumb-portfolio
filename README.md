@@ -36,7 +36,8 @@ Each course page has the three sections the rubric grades: **Course Description*
 ## Still to do before submitting
 
 - [ ] **CST 300** — add the two AI Companionship YouTube URLs, and commit the ethics paper to `courses/assets/ethics_evangelista.pdf` (create the `assets/` folder). Then update the `href`s on `cst-300.html`.
-- [x] **CST 462S** — service learning filled in: LibreOffice (The Document Foundation), 40 hours.
+- [x] **CST 462S** — service learning filled in: LibreOffice (The Document Foundation). [confirm hours]
+- [x] **CST 315 / 328 / 338** — video evidence added (pentesting, keylogger, NutriLog, game demo, diet-tracking app).
 - [ ] **CST 336** — decide whether to make the repos public (quotefinder, hw1Express, renderRepo) or keep the "code on request" note.
 - [ ] **Confirm two claims** — GymLog as a real Android app (CST 338) and the Render deployment (CST 336).
 - [ ] **Course descriptions** are paraphrased. If an instructor wants exact wording, paste the official CSUMB catalog text into each "Course Description" block.
